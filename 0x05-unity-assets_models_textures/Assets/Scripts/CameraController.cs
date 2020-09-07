@@ -18,8 +18,8 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        Quaternion camAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * rotationSpeed, Vector3.up);
-        offset = camAngle * offset;
+        Quaternion camAngleX = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * rotationSpeed, Vector3.up);
+        offset = camAngleX * offset;
 
         Vector3 newPos = player.transform.position + offset;
 

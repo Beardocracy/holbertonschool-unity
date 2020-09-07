@@ -44,6 +44,12 @@ public class PlayerController : MonoBehaviour
             movement.y = jumpHeight;
         }
         rb.AddForce(movement);
+
+        if (transform.position.y < -10)
+        {
+            rb.velocity = Vector3.zero;
+            transform.position = new Vector3(0f, 12.5f, 0f);
+        }
     }
 
     // Checks if player is in contact with something.
