@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Rotates the player.
+/// </summary>
 public class CameraController : MonoBehaviour
 {
     public float rotationSpeed = 5.0f;

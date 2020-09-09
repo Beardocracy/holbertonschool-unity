@@ -4,6 +4,9 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
+/// <summary>
+/// Running timer.
+/// </summary>
 public class Timer : MonoBehaviour
 {
     private float timer = 0f;

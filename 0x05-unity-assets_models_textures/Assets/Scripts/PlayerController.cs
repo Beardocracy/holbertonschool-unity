@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controls player movement.
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     public float _gravity = 1f;

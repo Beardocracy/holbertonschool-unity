@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Stops timer when victory is achieved.
+/// </summary>
 public class WinTrigger : MonoBehaviour
 {
     public GameObject player;
