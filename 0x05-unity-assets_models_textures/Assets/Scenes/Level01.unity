@@ -1887,6 +1887,11 @@ PrefabInstance:
       propertyPath: m_Direction
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3023058437429556062, guid: 0922f5b9828857944bc015b03b1b068e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4508715380662243472, guid: 0922f5b9828857944bc015b03b1b068e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1993,7 +1998,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5183233790986405984}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1210e23abdf9e844d9ef7b2fb03bb4e7, type: 3}
   m_Name: 
