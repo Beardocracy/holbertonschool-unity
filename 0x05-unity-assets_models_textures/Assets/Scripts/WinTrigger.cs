@@ -10,7 +10,6 @@ public class WinTrigger : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("You collided");
         player.GetComponent<Timer>().enabled = false;
         timerText.color = Color.green;
         timerText.fontSize = 60;
