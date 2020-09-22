@@ -191,8 +191,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: -5796423069471581869, guid: f25df28b74f75114495f8c6284636a0c,
       type: 3}
-    m_SelectedSprite: {fileID: -5796423069471581869, guid: f25df28b74f75114495f8c6284636a0c,
-      type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -312,8 +311,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: 5809756550102309710, guid: 9938069b2cd2d3946b13c5a6b4953de4,
       type: 3}
-    m_SelectedSprite: {fileID: 5809756550102309710, guid: 9938069b2cd2d3946b13c5a6b4953de4,
-      type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -434,8 +432,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: -2404911329485341581, guid: b2982fb2b563bc14bacca152ef87a6fa,
       type: 3}
-    m_SelectedSprite: {fileID: -2404911329485341581, guid: b2982fb2b563bc14bacca152ef87a6fa,
-      type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -1204,8 +1201,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
-      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 3503855156956247012, guid: 86b643481fe311c4785230accb813e26,
         type: 3}
       propertyPath: m_Sprite
@@ -1342,8 +1338,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteState.m_SelectedSprite
       value: 
-      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 2801121581321308371, guid: e90e747b1b11aa7429deba33d78d4d54,
         type: 3}
       propertyPath: m_Name
