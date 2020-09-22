@@ -187,10 +187,12 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 96fd94c31c6c70142846e3df6ed69758,
+    m_HighlightedSprite: {fileID: 1313888027037832839, guid: f25df28b74f75114495f8c6284636a0c,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 2826ab4fb34721b42a7e95fbbdba5820, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 2826ab4fb34721b42a7e95fbbdba5820, type: 3}
+    m_PressedSprite: {fileID: -5796423069471581869, guid: f25df28b74f75114495f8c6284636a0c,
+      type: 3}
+    m_SelectedSprite: {fileID: -5796423069471581869, guid: f25df28b74f75114495f8c6284636a0c,
+      type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -222,7 +224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 054a3f8a8478ae6489e47e05aab27b39, type: 3}
+  m_Sprite: {fileID: 420714208305049663, guid: f25df28b74f75114495f8c6284636a0c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -306,10 +308,12 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: d15c5fec85f102242b6daac96e7f8659,
+    m_HighlightedSprite: {fileID: -3843923788717299226, guid: 9938069b2cd2d3946b13c5a6b4953de4,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: ffdf751d2a00478488d75b8c9aef0ea8, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: ffdf751d2a00478488d75b8c9aef0ea8, type: 3}
+    m_PressedSprite: {fileID: 5809756550102309710, guid: 9938069b2cd2d3946b13c5a6b4953de4,
+      type: 3}
+    m_SelectedSprite: {fileID: 5809756550102309710, guid: 9938069b2cd2d3946b13c5a6b4953de4,
+      type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -341,7 +345,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0973514201634fc4d9fa1cfbf0165809, type: 3}
+  m_Sprite: {fileID: -5157315286894508882, guid: 9938069b2cd2d3946b13c5a6b4953de4,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -425,10 +430,12 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 4ec722ea07c6af544b063accbdaad618,
+    m_HighlightedSprite: {fileID: -1561580840248355024, guid: b2982fb2b563bc14bacca152ef87a6fa,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: 5e8c33aa5aa7b6443893072c9baa6b04, type: 3}
-    m_SelectedSprite: {fileID: 21300000, guid: 5e8c33aa5aa7b6443893072c9baa6b04, type: 3}
+    m_PressedSprite: {fileID: -2404911329485341581, guid: b2982fb2b563bc14bacca152ef87a6fa,
+      type: 3}
+    m_SelectedSprite: {fileID: -2404911329485341581, guid: b2982fb2b563bc14bacca152ef87a6fa,
+      type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -460,7 +467,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0799e1cd1041cf64fa0759210cc91a6f, type: 3}
+  m_Sprite: {fileID: 5490915748702937267, guid: b2982fb2b563bc14bacca152ef87a6fa,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1180,6 +1188,30 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3503855156956247011, guid: 86b643481fe311c4785230accb813e26,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
+    - target: {fileID: 3503855156956247011, guid: 86b643481fe311c4785230accb813e26,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
+    - target: {fileID: 3503855156956247011, guid: 86b643481fe311c4785230accb813e26,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
+    - target: {fileID: 3503855156956247012, guid: 86b643481fe311c4785230accb813e26,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3945451662944984592, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b643481fe311c4785230accb813e26, type: 3}
 --- !u!1001 &3847919675899458809
@@ -1294,10 +1326,34 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2801121581321308369, guid: e90e747b1b11aa7429deba33d78d4d54,
+        type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 8440510077267459181, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
+    - target: {fileID: 2801121581321308369, guid: e90e747b1b11aa7429deba33d78d4d54,
+        type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
+    - target: {fileID: 2801121581321308369, guid: e90e747b1b11aa7429deba33d78d4d54,
+        type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
     - target: {fileID: 2801121581321308371, guid: e90e747b1b11aa7429deba33d78d4d54,
         type: 3}
       propertyPath: m_Name
       value: ExitButton
       objectReference: {fileID: 0}
+    - target: {fileID: 2801121581321308374, guid: e90e747b1b11aa7429deba33d78d4d54,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3945451662944984592, guid: 490d09ddcc7e1a64fac953837940d477,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e90e747b1b11aa7429deba33d78d4d54, type: 3}
