@@ -13,14 +13,25 @@ public class PauseMenu : MonoBehaviour
         {
             if (pauseMenu.activeSelf == false)
             {
-                this.GetComponent<Timer>().enabled = false;
-                pauseMenu.SetActive(true);
+                Pause();
+                
             }
             else
             {
-                pauseMenu.SetActive(false);
-                this.GetComponent<Timer>().enabled = true;
+                Resume();
             }
         }
+    }
+
+    public void Pause()
+    {
+        this.GetComponent<Timer>().enabled = false;
+        pauseMenu.SetActive(true);
+    }
+
+    public void Resume()
+    {
+        pauseMenu.SetActive(false);
+        this.GetComponent<Timer>().enabled = true;
     }
 }
