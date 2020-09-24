@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour
     /// </summary>
     public void LevelSelect(int level)
     {
-        Debug.Log("You want to load level " + level.ToString());
+        //Debug.Log("You want to load level " + level.ToString());
         
         switch (level)
         {
