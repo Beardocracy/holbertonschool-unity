@@ -18,6 +18,9 @@ public class OptionsMenu : MonoBehaviour
         }
         
     }
+    /// <summary>
+    /// Applies changes and returns to previous scene.
+    /// </summary>
     public void Apply()
     {
         if (yToggle.isOn == true)

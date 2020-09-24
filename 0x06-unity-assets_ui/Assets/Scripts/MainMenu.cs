@@ -38,6 +38,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Options");
     }
 
+    /// <summary>
+    /// Exits the application.
+    /// </summary>
     public void Exit()
     {
         Debug.Log("Exited");

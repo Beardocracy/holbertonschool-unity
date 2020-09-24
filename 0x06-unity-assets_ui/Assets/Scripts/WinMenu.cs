@@ -6,11 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class WinMenu : MonoBehaviour
 {
+    /// <summary>
+    /// Loads the main menu.
+    /// </summary>
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
 
+    /// <summary>
+    /// Loads the next scene or main menu.
+    /// </summary>
     public void Next()
     {
         if (SceneManager.GetActiveScene().name == "Level01")

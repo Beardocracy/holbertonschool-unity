@@ -29,6 +29,9 @@ public class Timer : MonoBehaviour
             Win();
     }
 
+    /// <summary>
+    /// Enables the win canvas.
+    /// </summary>
     public void Win()
     {
         timerText.text = "";
