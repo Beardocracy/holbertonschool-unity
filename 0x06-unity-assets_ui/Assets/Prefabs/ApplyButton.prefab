@@ -109,8 +109,7 @@ MonoBehaviour:
       type: 3}
     m_PressedSprite: {fileID: 1641548200286959669, guid: 490d09ddcc7e1a64fac953837940d477,
       type: 3}
-    m_SelectedSprite: {fileID: 8440510077267459181, guid: 490d09ddcc7e1a64fac953837940d477,
-      type: 3}
+    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -122,7 +121,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8868466461288944814}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4468890616251051419
 GameObject:
   m_ObjectHideFlags: 0
