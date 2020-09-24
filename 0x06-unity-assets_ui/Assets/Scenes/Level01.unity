@@ -1822,6 +1822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3704875161684541678, guid: 2131b20931bdb2943bf7d7b765e7fb15,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5277396894787204656, guid: 2131b20931bdb2943bf7d7b765e7fb15,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2057,6 +2062,11 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 1949611948}
+    - target: {fileID: 5183233790986405985, guid: 0922f5b9828857944bc015b03b1b068e,
+        type: 3}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 2089887120}
     - target: {fileID: 5183233790986405986, guid: 0922f5b9828857944bc015b03b1b068e,
         type: 3}
       propertyPath: pauseMenu

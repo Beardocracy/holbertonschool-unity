@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float _speed = 20f;
     public float _jumpHeight = 2f;
 
-    public GameObject camera;
+    public GameObject m_camera;
     public GameObject pauseMenu;
 
     CharacterController _characterController;
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
 
         Vector3 inputDirection = new Vector3(horizontal, 0, vertical);
-        Vector3 transformDirection = camera.transform.TransformDirection(inputDirection);
+        Vector3 transformDirection = m_camera.transform.TransformDirection(inputDirection);
 
         Vector3 flatMovement = _speed * Time.deltaTime * transformDirection;
 

@@ -1997,6 +1997,11 @@ PrefabInstance:
       propertyPath: pauseMenu
       value: 
       objectReference: {fileID: 291221308}
+    - target: {fileID: 5183233790986405985, guid: 0922f5b9828857944bc015b03b1b068e,
+        type: 3}
+      propertyPath: m_camera
+      value: 
+      objectReference: {fileID: 5183233790986405985}
     - target: {fileID: 5183233790986405986, guid: 0922f5b9828857944bc015b03b1b068e,
         type: 3}
       propertyPath: pauseMenu
