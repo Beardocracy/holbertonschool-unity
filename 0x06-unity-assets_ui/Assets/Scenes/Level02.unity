@@ -992,7 +992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5183233790986405984}
   timerText: {fileID: 1205059883}
-  winCanvas: {fileID: 0}
+  winCanvas: {fileID: 1044775437}
 --- !u!4 &939415515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 0779e5d1277806848b714d6a6f32c6c6,
