@@ -285,6 +285,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 07e446560dc44e541baace5cb250c866, type: 3}
+--- !u!114 &233747838 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4904388455278015517, guid: 41ce0e1a1ec64504a9053290d0d67946,
+    type: 3}
+  m_PrefabInstance: {fileID: 4904388455333740899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &285288910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -847,11 +859,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 5183233790986405984}
   timerText: {fileID: 1205059883}
+  winCanvas: {fileID: 949314074}
 --- !u!4 &939415515 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 0779e5d1277806848b714d6a6f32c6c6,
     type: 3}
   m_PrefabInstance: {fileID: 36334819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &949314074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4904388455995581305, guid: 41ce0e1a1ec64504a9053290d0d67946,
+    type: 3}
+  m_PrefabInstance: {fileID: 4904388455333740899}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1013172193 stripped
 GameObject:
@@ -2196,6 +2215,16 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1205059883}
+    - target: {fileID: 5183233790986405991, guid: 0922f5b9828857944bc015b03b1b068e,
+        type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 233747838}
+    - target: {fileID: 5183233790986405991, guid: 0922f5b9828857944bc015b03b1b068e,
+        type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 949314074}
     - target: {fileID: 5183233790986405992, guid: 0922f5b9828857944bc015b03b1b068e,
         type: 3}
       propertyPath: pauseMenu

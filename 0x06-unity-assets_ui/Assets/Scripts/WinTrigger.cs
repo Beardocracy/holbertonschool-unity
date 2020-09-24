@@ -10,11 +10,12 @@ public class WinTrigger : MonoBehaviour
 {
     public GameObject player;
     public Text timerText;
+    public GameObject winCanvas;
    
     private void OnTriggerEnter(Collider other)
     {
-        player.GetComponent<Timer>().enabled = false;
-        timerText.color = Color.green;
-        timerText.fontSize = 60;
+        //player.GetComponent<Timer>().enabled = false;
+        //timerText.text = "";
+        winCanvas.SetActive(true);
     }
 }

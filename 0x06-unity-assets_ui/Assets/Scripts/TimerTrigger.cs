@@ -10,12 +10,12 @@ public class TimerTrigger : MonoBehaviour
     public GameObject player;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Contact");
+        //Debug.Log("Contact");
     }
     
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Exit");
+        //Debug.Log("Exit");
         player.GetComponent<Timer>().enabled = true;
     }
 }
